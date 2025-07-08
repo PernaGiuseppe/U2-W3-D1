@@ -16,7 +16,7 @@
     <main>
       <section class="container">
         <div class="row justify-content-center">
-          <div class="col 12">
+          <div class="col 12 my-2">
             <form id="petForm">
               <div class="form-group">
                 <label for="exampleInputEmail1">Pet name</label>
@@ -57,6 +57,14 @@
                   placeholder="Breed"
                   required
                 />
+                <div class="form-floating mt-4">
+                  <textarea
+                    class="form-control"
+                    disabled
+                    placeholder="Leave a comment here"
+                    id="textArea"
+                  ></textarea>
+                </div>
               </div>
 
               <button type="submit" class="btn btn-warning mt-3">Submit</button>

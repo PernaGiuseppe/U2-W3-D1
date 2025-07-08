@@ -32,9 +32,19 @@ petForm.addEventListener('submit', (e) => {
     speciesInput.value,
     breedInput.value
   )
-  console.log('Nuovo pet', nuovoPet)
+
   petForm.reset()
 })
+
+// const arrayOfPets = []
+// arrayOfPets.push(nuovoPet)
+// const areaDiTesto = document.getElementById('textArea')
+// const listaAnimaliul = document.createElement('ul')
+// const listaAnimali = document.createElement('li')
+// areaDiTesto.appendChild(listaAnimaliul)
+// listaAnimaliul.appendChild(listaAnimali)
+// listaAnimali.innerText = arrayOfPets
+
 // const pet1 = new Pet('Fufy', 'Giovanni', 'Cane', 'Chiwawa')
 // const pet2 = new Pet('Bobby', 'Roberto', 'Cane', 'Labrador')
 // const pet3 = new Pet('Pimpy', 'Giovanni', 'Gatto', 'Persiano')
